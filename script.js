@@ -115,7 +115,7 @@ let verifyLetter = letter => {
 
         if (ccount == word.length) {
 
-            winModalEl.querySelector('.modal-body').innerHTML = `<p>Você acertou a palavra <span class="fw-bold>"'${wordEl.value}'</span>.</p>
+            winModalEl.querySelector('.modal-body').innerHTML = `<p>Você acertou a palavra <span class="fw-bold">'${wordEl.value}'</span>.</p>
             
             <p class="fw-bold mb-0">Acertos: <span class="win-rights text-success">${ccount}</span></p>
             <p class="fw-bold m-0">Erros: <span class="win-wrongs text-danger">${ecount}</span></p>`
@@ -126,7 +126,7 @@ let verifyLetter = letter => {
 
         } else if (ecount >= 7) {
 
-            winModalEl.querySelector('.modal-body').innerHTML = `<p>Você perdeu a palavra era <span class="fw-bold>"'${wordEl.value}'</span>.</p>
+            winModalEl.querySelector('.modal-body').innerHTML = `<p>Você perdeu a palavra era <span class="fw-bold">'${wordEl.value}'</span>.</p>
             
             <p class="fw-bold mb-0">Acertos: <span class="win-rights text-success">${ccount}</span></p>
             <p class="fw-bold m-0">Erros: <span class="win-wrongs text-danger">${ecount}</span></p>`
